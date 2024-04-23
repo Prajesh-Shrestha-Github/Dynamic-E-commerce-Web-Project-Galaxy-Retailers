@@ -1,0 +1,51 @@
+/* Reset some default styling */
+body, html {
+    margin: 0;
+    height: 100%;
+}
+
+/* Create a gradient background */
+body {
+    background: linear-gradient(to right, #8a7df0, #e78af9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style the login card */
+.card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 40px;
+    width: 300px; 
+}
+
+/* Style the header */
+.header {
+   color:#4a47f5; 
+   font-size:24px; 
+   margin-bottom :20px; 
+}
+
+/* Style input fields */
+input[type="text"], input[type="password"] {
+   width :100%; 
+   padding :12px; 
+   margin :8px 0; 
+   display :inline-block; 
+   border :1px solid #ccc; 
+   box-sizing :border-box
+}
+
+/* Style the login button */
+button {
+     background-color:#4a47f5 ;  
+     color:white ;  
+     padding :14px 20px ;  
+     margin :8px 0 ;  
+     border:none ;  
+     cursor:pointer ;
+     width:auto ;
+}
+
+button:hover {opacity:.8}
