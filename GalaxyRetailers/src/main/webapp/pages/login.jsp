@@ -1,5 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,11 +11,11 @@
     <div class="card">
         <h1 class="header">Galaxy Retailers</h1>
         <form action="">
-            <input type="text" placeholder="Username" name="username" required>
+            <input type="text" placeholder="Username" name="userName" required>
             <input type="password" placeholder="Password" name="password" required>
             <button type="submit">Login</button>
         </form>
-        <p>Don't have an account? <a href="signup.html">Sign Up</a></p>
+        <p>Don't have an account? <a href="register.jsp">Sign Up</a></p>
     </div>
 </body>
 </html>
