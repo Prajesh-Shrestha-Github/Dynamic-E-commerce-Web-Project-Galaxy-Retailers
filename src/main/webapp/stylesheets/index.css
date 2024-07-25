@@ -1,0 +1,199 @@
+@charset "ISO-8859-1";
+
+body {
+  background-color: #ffffff;
+}
+
+nav.container {
+  max-width: 100%; /* Set a maximum width */
+  margin: 0 auto; /* Center the container horizontally */
+  display: flex; /* Make it a flexbox container */
+  justify-content: center; /* Space items evenly */
+  align-items: center; /* Vertically center items within the container */
+  padding: 2px 0; /* Add some top and bottom padding */
+}
+
+/* Styles for the logo */
+.logo img {
+  width: 200px; /* Adjust width as desired */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Styles for the navigation list */
+.navigation {
+  list-style: none; /* Remove default bullet points */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+  display: flex; /* Make it a flexbox container */
+}
+
+/* Styles for navigation list items */
+.navigation li {
+  margin-right: 20px; /* Add space between list items (optional) */
+}
+
+/* Styles for navigation links */
+.navigation a {
+  text-decoration: none; /* Remove underline */
+  color: black; /* Set text color */
+}
+
+/* Hover effect for navigation links */
+.navigation a:hover {
+  transform: scale(1.2);
+  transition: all 0.2s ease-in-out;
+  color: #6D214F;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.cart-icon img {
+  width: 24px; /* Set image width */
+  height: 24px; /* Set image height */
+  margin-right: 5px; /* Add some space between icon and text */
+}
+
+/* Styles for the image section */
+.image-section {
+  text-align: center; /* Center align content */
+  background-color: #f9f9f9; /* Light gray background color */
+}
+
+.image-section img {
+  display: flex; /* Ensure the image takes up the entire container */
+  width: 100%; /* Ensure the image fills the container */
+}
+
+.image-section button {
+  position: absolute; /* Position the button relative to its container */
+  bottom: 200px; /* Adjust as needed to position the button */
+  left: 11%; /* Center the button horizontally */
+  z-index: 1; /* Ensure the button appears above the image */
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.image-section button:hover {
+  background-color: #E3E3E3;
+  color: rgb(0, 0, 0);
+  border: 1px rgb(255, 255, 255);
+}
+
+/* Styles for the image */
+.image-section img {
+  max-width: 100%; /* Make the image responsive */
+  height: 100%; /* Maintain aspect ratio */
+}
+
+
+.Product {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flex-box {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.flex-box img {
+    max-width: 100%;
+    height: auto;
+}
+
+.flex-box h3 {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #333;
+}
+
+.flex-box .buy {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.flex-box .buy:hover {
+    background-color: #0056b3;
+}
+
+.flex-box form {
+    margin-top: 20px;
+}
+
+.flex-box form input[type="number"] {
+    width: 50px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.flex-box form button[type="submit"] {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.flex-box form button[type="submit"]:hover {
+    background-color: #218838;
+}
+
+
+.div {
+  display: flex;
+}
+
+.buy {
+  border-radius: 5px;
+  margin-top: 15px;
+  margin-left: 99px;
+  padding: 10px 14px;
+}
+
+.cart {
+  border-radius: 5px;
+  padding: 10px 28px;
+}
+
+
+/* Adjust width of the image */
+.image-section2 img {
+  margin-top: 5px;
+  max-width: 100%; /* Make the image responsive */
+  height: auto; /* Maintain aspect ratio */
+  width: 100%; /* Set image width to fill container */
+}
+
+/* Style the footer */
+footer {
+  background-color: #d6d6d6;
+  color: black;
+  padding: 20px;
+  text-align: center;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}

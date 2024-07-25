@@ -1,0 +1,236 @@
+@charset "UTF-8";
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    font-family: "Poppins", sans-serif; 
+  } 
+
+  body { 
+    background-color: white; 
+    max-width: 100%; 
+    overflow-x: hidden; 
+  }
+
+  header { 
+    height: 70px; 
+    width: 100vw; 
+    padding: 0 30px; 
+    background-color: rgb(255, 255, 255); 
+    position: fixed; 
+    z-index: 100; 
+    box-shadow: 1px 1px 15px #4240cf; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+  }
+  header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+  .header-logo {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-45%); 
+    opacity: 0.8;
+    height: 100px;
+}
+.header-background {
+  background-color: #f1f1f1;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  height: 50%;
+}
+  .main-container { 
+    display: flex; 
+    width: 100vw; 
+    position: relative; 
+    top: 70px; 
+    z-index: 1; 
+  } 
+ 
+  .nav { 
+    min-height: 100%; 
+    width: 250px; 
+    background-color: black; 
+    color: white;
+    position: absolute; 
+    top: 0px; 
+    left: 00; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-between; 
+    overflow: hidden; 
+    padding: 30px 0 20px 10px; 
+  } 
+  .navcontainer { 
+    height: calc(100vh - 70px); 
+    width: 200px; 
+    position: relative; 
+    overflow-y: scroll; 
+    overflow-x: hidden; 
+    transition: all 0.5s ease-in-out; 
+  } 
+  .navcontainer::-webkit-scrollbar { 
+    display: none; 
+  } 
+
+  .nav-option { 
+    
+    width: 250px; 
+    height: 60px; 
+    display: flex; 
+    align-items: center; 
+    padding: 0 30px 0 20px; 
+    gap: 20px; 
+    transition: all 0.1s ease-in-out; 
+  } 
+  .nav-option:hover { 
+   
+    background-color: #4240cf; 
+    cursor: pointer; 
+    text-decoration: none;
+  } 
+  
+  .nav-up { 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    gap: 30px; 
+  } 
+    
+  .active { 
+ 
+    background-color: #4240cf; 
+    color: white; 
+    cursor: pointer; 
+    
+  } 
+  .active:hover { 
+    background-color: #4240cf;
+  } 
+
+  .inactive{
+    text-decoration: none;
+    color: #f1f1f1;
+  }
+  .heading{
+    color: #4240cf;
+    font-size: 25px;
+    padding: 10px 20px;
+    text-align: center;
+  }
+  /* product */
+ 
+  .product1 {
+    text-align: center;    
+}
+
+.section-p1{
+	width: 100%;
+}
+
+#product1 .pro-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 150px;
+    padding-left: 20px;
+    flex-wrap: wrap;
+}
+
+#product1 .pro{
+    width: 30%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid #4cc132;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 10px 10px 20px #4240cf;
+    margin: 10px 1px;    
+    transition: 0.2s ease;
+    position: relative;
+}
+
+#product1 .pro:hover{
+    box-shadow: 10px 10px 20px #4cc132;
+}
+
+#product1 .pro .des{
+    text-align: start;
+    padding: 10px 1000;
+}
+
+#product1 .pro .des h2{
+    padding-top: 7px;
+    color: #1a1a1a;
+    font-size: 20px;
+}
+
+#product1 .pro .des h1{
+    padding-top: 7px;
+    font-size: 25px;
+    font-weight: 700;
+    color: #4cc132;
+}
+
+/* profile */
+
+.profile {
+  display: flex;
+  align-items: right;
+  justify-content: right;
+ 
+}
+
+.profile-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  margin-top: 60px;
+  
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 60px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}

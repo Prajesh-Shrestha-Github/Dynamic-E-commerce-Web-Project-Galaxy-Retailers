@@ -1,0 +1,193 @@
+@charset "ISO-8859-1";
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+  }
+  h1{
+    font-size: 50px;
+    line-height: 64px;
+    color: black;
+  }
+  
+  h2{
+    font-size: 46px;
+    line-height: 54px;
+    color: rgb(255, 255, 255);
+  }
+  
+  h4{
+    font-size: 20px;
+   color: #ffffff;
+  }
+  
+  h6{
+    font-weight: 700;
+    font-size: 12px;
+  }
+  
+  p{
+    font-size: 16px;
+    color: #ffffff;
+    margin: 15px 0 20 px 0;;
+  }
+  
+  .section-p1{
+    padding: 40px 80px;
+  }
+  
+  .section-m1{
+    margin: 40px 0;
+  }
+  
+  .section-p2{
+    padding: 40px 80px;
+    background-color: #abbaf4;
+  }
+  
+  body {
+    width: 100%;
+  }
+  
+  .image{
+    height: 340px;
+    width: 340px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+  }
+
+.s3{
+  justify-content: space-between;
+  display: flex;
+}
+
+.about{
+  margin-left: 10px;
+  padding-top: 50px;
+}
+
+  .group{
+    
+    position: relative;
+    padding-top: 10px;
+    
+  }
+  
+  nav.container {
+  max-width: 100%; /* Set a maximum width */
+  margin: 0 auto; /* Center the container horizontally */
+  display: flex; /* Make it a flexbox container */
+  justify-content: center; /* Space items evenly */
+  align-items: center; /* Vertically center items within the container */
+  padding: 2px 0; /* Add some top and bottom padding */
+}
+  .logo img {
+  width: 200px; /* Adjust width as desired */
+  height: auto; /* Maintain aspect ratio */
+}
+.navigation {
+  list-style: none; /* Remove default bullet points */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+  display: flex; /* Make it a flexbox container */
+}
+
+.navigation li {
+  margin-right: 20px; /* Add space between list items (optional) */
+}
+
+/* Styles for navigation links */
+.navigation a {
+  text-decoration: none; /* Remove underline */
+  color: black; /* Set text color */
+}
+
+
+/* Hover effect for navigation links */
+.navigation a:hover {
+  transform: scale(1.2);
+  transition: all 0.2s ease-in-out;
+  color: #6D214F;
+  text-decoration: underline;
+  font-weight: bold;
+}
+.cart-icon img {
+  width: 24px; /* Set image width */
+  height: 24px; /* Set image height */
+  margin-right: 5px; /* Add some space between icon and text */
+  
+ 
+  
+  .footlogo {
+    height: 79px;
+  }
+  
+ 
+  }
+  
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 235px;
+  }
+  
+  footer h4 {
+    font-size: 30px;
+    padding-bottom: 20px;
+    color: black;
+  }
+  
+  footer p {
+    font-size: 15px;
+    margin: 0 0 8px 0;
+  }
+  
+  .copyright p{
+    color: black;
+  }
+  
+      body {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        text-align: center;
+      }
+      
+      h1 {
+        font-size: 30px;
+        margin-bottom: 20px;
+        background-color: #abbaf4;
+        padding: 15px;
+        color: black;
+        
+      }
+      
+      #members {
+        display: inline-block;
+        width: 200px;
+        text-align: left;
+        margin: 0 20px 10px 0;
+        background-color: #1e241e;
+      }
+      
+      img {
+        width: 100%;
+        margin-bottom: 2px;
+    
+      }
+      
+      h2 {
+        font-size: 24px;
+        margin-bottom: 2px;
+        text-align: center;
+      }
+      
+      a {
+        color: #fff;
+        text-decoration: none;
+      }
+
+      p{
+        color: black;
+        padding: 10px;
+      }

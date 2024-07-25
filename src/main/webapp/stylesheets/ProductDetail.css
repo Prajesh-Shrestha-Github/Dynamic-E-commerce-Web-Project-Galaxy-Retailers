@@ -1,0 +1,140 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    line-height: 1.6;
+}
+body {
+  background-color: #ffffff;
+}
+nav.container {
+  max-width: 100%; /* Set a maximum width */
+  margin: 0 auto; /* Center the container horizontally */
+  display: flex; /* Make it a flexbox container */
+  justify-content: center; /* Space items evenly */
+  align-items: center; /* Vertically center items within the container */
+  padding: 2px 0; /* Add some top and bottom padding */
+}
+
+/* Styles for the logo */
+.logo img {
+  width: 200px; /* Adjust width as desired */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Styles for the navigation list */
+.navigation {
+  list-style: none; /* Remove default bullet points */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+  display: flex; /* Make it a flexbox container */
+}
+
+/* Styles for navigation list items */
+.navigation li {
+  margin-right: 20px; /* Add space between list items (optional) */
+}
+
+/* Styles for navigation links */
+.navigation a {
+  text-decoration: none; /* Remove underline */
+  color: black; /* Set text color */
+}
+
+/* Hover effect for navigation links */
+.navigation a:hover {
+  transform: scale(1.2);
+  transition: all 0.2s ease-in-out;
+  color: #6D214F;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.cart-icon img {
+  width: 24px; /* Set image width */
+  height: 24px; /* Set image height */
+  margin-right: 5px; /* Add some space between icon and text */
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+/* Product Info */
+.product-info {
+    display: block;
+    margin-top: 50px;
+}
+
+.product-image {
+    max-width: 100%;
+}
+
+.product-header h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.stockprice {
+    margin-bottom: 20px;
+}
+
+.description h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.description p {
+    color: #666;
+}
+
+.buttons .btn {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.buttons .btn:hover {
+    background-color: #555;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+}
+
+footer .col {
+    width: 30%;
+    margin-right: 5%;
+}
+
+footer .col:last-child {
+    margin-right: 0;
+}
+
+footer h4 {
+    margin-bottom: 20px;
+}
+
+footer p {
+    margin-bottom: 20px;
+}
+
+.footer .icon i {
+    font-size: 24px;
+    margin-right: 10px;
+}

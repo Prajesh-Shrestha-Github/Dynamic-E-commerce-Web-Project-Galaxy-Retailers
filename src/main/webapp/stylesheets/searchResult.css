@@ -1,0 +1,114 @@
+@charset "ISO-8859-1";
+/* CSS for the rest of the page excluding navigation bar */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+nav.container {
+  max-width: 100%; /* Set a maximum width */
+  margin: 0 auto; /* Center the container horizontally */
+  display: flex; /* Make it a flexbox container */
+  justify-content: center; /* Space items evenly */
+  align-items: center; /* Vertically center items within the container */
+  padding: 2px 0; /* Add some top and bottom padding */
+}
+
+/* Styles for the logo */
+.logo img {
+  width: 200px; /* Adjust width as desired */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Styles for the navigation list */
+.navigation {
+  list-style: none; /* Remove default bullet points */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+  display: flex; /* Make it a flexbox container */
+}
+
+/* Styles for navigation list items */
+.navigation li {
+  margin-right: 20px; /* Add space between list items (optional) */
+}
+
+/* Styles for navigation links */
+.navigation a {
+  text-decoration: none; /* Remove underline */
+  color: black; /* Set text color */
+}
+
+/* Hover effect for navigation links */
+.navigation a:hover {
+  transform: scale(1.2);
+  transition: all 0.2s ease-in-out;
+  color: #6D214F;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.cart-icon img {
+  width: 24px; /* Set image width */
+  height: 24px; /* Set image height */
+  margin-right: 5px; /* Add some space between icon and text */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.logo img {
+    max-width: 100px;
+}
+
+h1 {
+    text-align: center;
+}
+
+div {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+div h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+p {
+    text-align: center;
+    color: #555;
+}
+
+form {
+    text-align: center;
+}
+
+form input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button[type="submit"]:hover {
+    background-color: #0056b3;
+}
